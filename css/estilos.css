@@ -39,3 +39,41 @@ header {
 nav {
 margin-top: 45px;
 }
+
+.imagen{
+  background-color: #82c3a6;
+  border-radius: 10px;
+  width: 900px;
+  display:flex;
+  flex-flow: row wrap;
+}
+
+.imagen img{
+  width: 80%;
+}
+
+.imagen1{
+  background-color: #d5c75f;
+  border-radius: 10px;
+  width: 450px;
+  display:flex;
+  flex-flow: row wrap;
+
+}
+
+.imagen2{
+  background-color: #d5c75f;
+  border-radius: 10px;
+  width: 450px;
+  display:flex;
+  flex-flow: row wrap;
+
+}
+
+footer{
+  background-color: #C6d5c5;
+  border-radius: 10px;
+  width: 900px;
+  display:flex;
+  flex-flow: row wrap;
+}
