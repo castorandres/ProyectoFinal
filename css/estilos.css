@@ -10,7 +10,7 @@ body{
 header {
   border-radius: 10px;
 	background-color: #5b7989;
-  width: 900px
+  width: 900px;
   display:flex;
   flex-flow: row wrap;
 }
@@ -20,7 +20,7 @@ header {
   font-size: 25px;
   color: white;
   text-shadow: 0 0 2px  #02010a;
-  width:70%
+  width:70%;
   display:flex;
   flex-flow: row wrap;
 }
@@ -29,7 +29,7 @@ header {
   font-family: Dancing Script;
   font-size: 20px;
   color: white;
-  width:30%
+  width:30%;
   display:flex;
   flex-flow: row wrap;
 }
