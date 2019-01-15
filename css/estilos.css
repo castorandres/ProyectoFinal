@@ -33,3 +33,6 @@ header {
   display:flex;
   flex-flow: row wrap;
 }
+nav {
+margin-top: 55px;
+}
