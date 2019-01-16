@@ -40,7 +40,7 @@ nav {
 margin-top: 45px;
 }
 
-.imagen{
+.contenedor1{
   background-color: #82c3a6;
   border-radius: 10px;
   width: 900px;
@@ -48,15 +48,19 @@ margin-top: 45px;
   flex-flow: row wrap;
 }
 
-.imagen img{
+#imagen img{
   width: 800px;
   height: 400px;
   border-radius: 10px;
   align: center;
 }
 
+#imagen{
+  padding: 2% 5%;
+}
 
-.imagenes{
+
+.contenedor2{
   background-color: #d5c75f;
   border-radius: 1px;
   width: 900px;
@@ -64,9 +68,23 @@ margin-top: 45px;
   flex-flow: row wrap;
 }
 
-.imagen1 img{
-  width: 800px;
-  height: 400px;
+#imagen1{
+  padding: 2% 10%;
+}
+
+#imagen1 img{
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  align: center;
+}
+
+#imagen2{
+  padding: 2% 1%;
+}
+#imagen2 img{
+  width: 300px;
+  height: 150px;
   border-radius: 10px;
   align: center;
 }
