@@ -23,7 +23,6 @@ header {
   width:70%;
   display:flex;
   flex-flow: row wrap;
-  border: 2px solid black;
 }
 
 #titulo{
@@ -31,13 +30,12 @@ header {
   font-size: 18px;
   color: white;
   text-shadow: 0 0 2px  #02010a;
-
+  text-align: right;
 }
 .contenedor-menu{
   width:30%;
   display:flex;
   flex-flow: row wrap;
-  border: 2px solid black;
 }
 
 #menu{
@@ -45,6 +43,16 @@ header {
   font-size: 20px;
   color: white;
   text-align: right;
+  letter-spacing: 1px;
+  word-spacing: 12px;
+}
+
+a {outline: 0;}
+a img {border: 0px; text-decoration: none;}
+a:link, a:visited {
+	padding: 0 1px;
+	text-decoration: underline;
+	color: white;
 }
 
 nav {
