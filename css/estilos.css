@@ -13,7 +13,7 @@ header {
 }
 
 .contenedor{
-  width: 1000px;
+  width: 100%;
   background-color: #5b7989;
   display:flex;
   flex-flow: row wrap;
@@ -27,7 +27,7 @@ header {
 
 #titulo{
   font-family: Dancing Script;
-  font-size: 18px;
+  font-size: 1em;
   color: white;
   text-shadow: 0 0 2px  #02010a;
   text-align: right;
@@ -63,14 +63,13 @@ margin-left: 45px;
 .contenedor1{
   background-color: #82c3a6;
   border-radius: 10px;
-  width: 1000px;
+  width: 100%;
   display:flex;
   flex-flow: row wrap;
 }
 
 #imagen img{
-  width: 800px;
-  height: 400px;
+  width: 100%;
   border-radius: 10px;
   align: center;
 }
@@ -83,40 +82,58 @@ margin-left: 45px;
 .contenedor2{
   background-color: #d5c75f;
   border-radius: 1px;
-  width: 1000px;
+  width: 100%;
   display:flex;
   flex-flow: row wrap;
 }
 
-#imagen1{
-  padding: 2% 10%;
-}
-
 #imagen1 img{
-  width: 300px;
-  height: 150px;
+  width: 40%;
   border-radius: 5px;
-  align: center;
-
+  display:flex;
+  flex-flow: row wrap;
 }
 
-#imagen2{
-  padding: 2% 1%;
-}
 #imagen2 img{
-  width: 300px;
-  height: 150px;
+  width: 25%;
   border-radius: 10px;
-  align: center;
+  display:flex;
+  flex-flow: row wrap;
 }
-
-
 
 .pie p{
   background-color: #C6d5c5;
   border-radius: 10px;
-  width: 1000px;
+  width: 100%;
   padding: 2% 0;
   display:flex;
   flex-flow: row wrap;
+}
+
+@media all and (max-width: 500px) {
+	.contenedor {
+		width: 100%;
+		order: 1;
+	}
+
+	.contenedor1 {
+		width: 100%;
+		order: 2;
+	}
+	.ontenedor2 {
+		width: 100%;
+		order: 3;
+	}
+}
+
+@media all and (max-width: 800px) and (min-width: 500px) {
+	.contenedor {
+		width: 100%;
+	}
+	.contenedor1 {
+		width: 100%;
+	}
+	.contenedor2 {
+		width: 100%;
+	}
 }
