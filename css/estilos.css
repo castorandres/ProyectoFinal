@@ -1,7 +1,6 @@
 body{
   background-color: black;
   padding: 0 20%;
-
 }
 @font-face {
   font-family: 'Dancing Script';
@@ -64,20 +63,16 @@ margin-left: 45px;
   background-color: #82c3a6;
   border-radius: 10px;
   width: 100%;
-  display:flex;
-  flex-flow: row wrap;
+  text-align: center;
 }
 
 #imagen img{
-  width: 100%;
+  width: 80%;
   border-radius: 10px;
-  align: center;
-}
+  padding: 1% 0;
+  filter: drop-shadow(2px 2px 2px #02010a);
 
-#imagen{
-  padding: 2% 5%;
 }
-
 
 .contenedor2{
   background-color: #d5c75f;
@@ -85,20 +80,64 @@ margin-left: 45px;
   width: 100%;
   display:flex;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 #imagen1 img{
-  width: 40%;
-  border-radius: 5px;
-  display:flex;
-  flex-flow: row wrap;
+  width: 90%;
+  border-radius: 2px;
+  padding: 10% 0;
+  filter: drop-shadow(2px 2px 2px #02010a);
 }
 
+#imagen1{
+  width: 50%;
+  text-align: center;
+}
+
+@keyframes
+	imagen1-animacion {
+	from {
+	transform: rotate(0deg);
+	}
+	to {
+	transform: rotate(10deg);
+	}
+	}
+
+  #imagen1 img:hover{
+    transform: rotate(10deg);
+    animation-name: imagen1-animacion;
+    animation-duration: 2s;
+  }
+
 #imagen2 img{
-  width: 25%;
-  border-radius: 10px;
-  display:flex;
-  flex-flow: row wrap;
+  width: 72%;
+  border-radius: 2px;
+  padding: 10% 0;
+  filter: drop-shadow(2px 2px 2px #02010a);
+}
+
+#imagen2{
+  width: 50%;
+  text-align: center;
+}
+
+@keyframes
+	imagen2-animacion {
+	from {
+	transform: translate3d(0px, 0px, 0px);
+	}
+	to {
+	transform: translate3d(20px, -5px, 0px);
+	}
+	}
+
+  #imagen2 img:hover{
+    transform: translate3d(20px, -5px, 0px);
+    filter: drop-shadow(3px 3px 3px #82c3a6);
+    animation-name: imagen2-animacion;
+    animation-duration: 2s;
 }
 
 .pie p{
