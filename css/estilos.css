@@ -52,27 +52,28 @@ margin-top: 45px;
   width: 800px;
   height: 400px;
   border-radius: 10px;
+  align: center;
 }
 
-.imagen1{
+
+.imagenes{
   background-color: #d5c75f;
-  border-radius: 10px;
-  width: 450px;
+  border-radius: 1px;
+  width: 900px;
   display:flex;
   flex-flow: row wrap;
-
 }
 
-.imagen2{
-  background-color: #d5c75f;
+.imagen1 img{
+  width: 800px;
+  height: 400px;
   border-radius: 10px;
-  width: 450px;
-  display:flex;
-  flex-flow: row wrap;
-
+  align: center;
 }
 
-footer{
+
+
+.pie p{
   background-color: #C6d5c5;
   border-radius: 10px;
   width: 900px;
