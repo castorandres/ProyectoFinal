@@ -10,40 +10,52 @@ body{
 
 header {
   border-radius: 10px;
-	background-color: #5b7989;
-  width: 900px;
-  display:flex;
-  flex-flow: row wrap;
-
 }
 
-.titulo{
-  font-family: Dancing Script;
-  font-size: 22px;
-  color: white;
-  text-shadow: 0 0 2px  #02010a;
+.contenedor{
+  width: 1000px;
+  background-color: #5b7989;
+  display:flex;
+  flex-flow: row wrap;
+}
+
+.contenedor-titulo{
   width:70%;
   display:flex;
   flex-flow: row wrap;
+  border: 2px solid black;
 }
 
-.menu{
+#titulo{
   font-family: Dancing Script;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
+  text-shadow: 0 0 2px  #02010a;
+
+}
+.contenedor-menu{
   width:30%;
   display:flex;
   flex-flow: row wrap;
-  text-decoration: none;
+  border: 2px solid black;
 }
+
+#menu{
+  font-family: Dancing Script;
+  font-size: 20px;
+  color: white;
+  text-align: right;
+}
+
 nav {
-margin-top: 45px;
+margin-top: 40px;
+margin-left: 45px;
 }
 
 .contenedor1{
   background-color: #82c3a6;
   border-radius: 10px;
-  width: 900px;
+  width: 1000px;
   display:flex;
   flex-flow: row wrap;
 }
@@ -63,7 +75,7 @@ margin-top: 45px;
 .contenedor2{
   background-color: #d5c75f;
   border-radius: 1px;
-  width: 900px;
+  width: 1000px;
   display:flex;
   flex-flow: row wrap;
 }
@@ -77,6 +89,7 @@ margin-top: 45px;
   height: 150px;
   border-radius: 5px;
   align: center;
+
 }
 
 #imagen2{
@@ -94,7 +107,8 @@ margin-top: 45px;
 .pie p{
   background-color: #C6d5c5;
   border-radius: 10px;
-  width: 900px;
+  width: 1000px;
+  padding: 2% 0;
   display:flex;
   flex-flow: row wrap;
 }
