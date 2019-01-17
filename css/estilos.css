@@ -87,7 +87,7 @@ margin-top: 40px;
 
 #imagen1{
   width: 50%;
-  text-align: Center;
+  text-align: center;
 }
 
 #imagen1 a{
@@ -394,6 +394,8 @@ margin-top: 40px;
 @media all and (max-width: 500px) {
 	.contenedor {
 		width: 100%;
+    text-align:center;
+
 		order: 1;
 	}
 
@@ -499,6 +501,7 @@ margin-top: 40px;
 @media all and (max-width: 800px) and (min-width: 500px) {
 	.contenedor {
 		width: 100%;
+    text-align: center;
 	}
 	.contenedor1 {
 		width: 100%;
