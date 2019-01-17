@@ -87,7 +87,11 @@ margin-top: 40px;
 
 #imagen1{
   width: 50%;
-  text-align: center;
+  text-align: Center;
+}
+
+#imagen1 a{
+  text-align: Center;
   font-family: Dancing Script;
   font-size: 30px;
   color: black;
@@ -119,6 +123,13 @@ margin-top: 40px;
 #imagen2{
   width: 50%;
   text-align: center;
+  font-family: Dancing Script;
+  font-size: 30px;
+  color: black;
+}
+
+#imagen2 a{
+  text-align: left;
   font-family: Dancing Script;
   font-size: 30px;
   color: black;
