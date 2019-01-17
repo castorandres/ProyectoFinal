@@ -76,7 +76,6 @@ margin-top: 40px;
   width: 100%;
   display:flex;
   flex-flow: row wrap;
-  text-align: center;
 }
 
 #imagen1 img{
@@ -89,6 +88,9 @@ margin-top: 40px;
 #imagen1{
   width: 50%;
   text-align: center;
+  font-family: Dancing Script;
+  font-size: 30px;
+  color: black;
 }
 
 @keyframes
@@ -117,6 +119,9 @@ margin-top: 40px;
 #imagen2{
   width: 50%;
   text-align: center;
+  font-family: Dancing Script;
+  font-size: 30px;
+  color: black;
 }
 
 @keyframes
@@ -136,6 +141,86 @@ margin-top: 40px;
     animation-duration: 2s;
 }
 
+.contenedor3{
+  background-color: #d5c75f;
+  border-radius: 1px;
+  width: 100%;
+  display:flex;
+  flex-flow: row wrap;
+  text-align: center;
+  padding: 2% 0;
+}
+
+#caja5{
+  width: 33%;
+}
+
+#caja6{
+  width: 33%;
+}
+
+#caja7{
+  width: 33%;
+}
+
+#caja5 img{
+  width: 90%;
+  -webkit-filter:blur(10px) drop-shadow(2px 2px 2px #02010a);
+  filter: blur(10px) drop-shadow(2px 2px 2px #02010a);
+}
+
+#caja6 img{
+  width: 90%;
+  -webkit-filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+  filter: grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+}
+
+#caja7 img{
+  width: 90%;
+  -webkit-filter:sepia(90%) drop-shadow(2px 2px 2px #02010a);
+  filter: sepia(90%) drop-shadow(2px 2px 2px #02010a);
+}
+
+.contenedor4{
+  background-color: #d5c75f;
+  border-radius: 1px;
+  width: 100%;
+  display:flex;
+  flex-flow: row wrap;
+  text-align: center;
+  padding: 2% 0;
+}
+
+#caja8{
+  width: 33%;
+}
+
+#caja9{
+  width: 33%;
+}
+
+#caja10{
+  width: 33%;
+}
+
+#caja8 img{
+  width: 90%;
+  -webkit-filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+  filter: grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+}
+
+#caja9 img{
+  width: 90%;
+  filter: drop-shadow(2px 2px 2px #02010a);
+}
+
+#caja10 img{
+  width: 90%;
+  -webkit-filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+  filter: grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+}
+
+
 .pie {
   background-color: #C6d5c5;
   border-radius: 10px;
@@ -151,7 +236,7 @@ margin-top: 40px;
 
 #caja1 p{
   font-family: Dancing Script;
-  font-size: 150%;
+  font-size: 100%;
   color: Black;
   text-align: center;
 }
@@ -159,7 +244,7 @@ margin-top: 40px;
 #caja1 li{
   list-style: none;
   font-family: Dancing Script;
-  font-size: 120%;
+  font-size: 100%;
 }
 
 #caja2{
@@ -168,7 +253,7 @@ margin-top: 40px;
 
 #caja2 p{
   font-family: Dancing Script;
-  font-size: 150%;
+  font-size: 100%;
   color: Black;
   text-align: center;
 }
@@ -176,7 +261,7 @@ margin-top: 40px;
 #caja2 li{
   list-style: none;
   font-family: Dancing Script;
-  font-size: 130%;
+  font-size: 100%;
   text-align: justify;
 }
 
@@ -186,7 +271,7 @@ margin-top: 40px;
 
 #caja3 p{
   font-family: Dancing Script;
-  font-size: 150%;
+  font-size: 100%;
   color: Black;
   text-align: center;
 }
@@ -202,7 +287,7 @@ margin-top: 40px;
 
 #caja4 p{
   font-family: Dancing Script;
-  font-size: 150%;
+  font-size: 100%;
   color: Black;
   text-align: center;
 }
@@ -210,7 +295,7 @@ margin-top: 40px;
 #caja4 li{
   list-style: none;
   font-family: Dancing Script;
-  font-size: 130%;
+  font-size: 100%;
   color: Black;
   text-align: center;
 
@@ -227,9 +312,25 @@ margin-top: 40px;
 		width: 100%;
 		order: 2;
 	}
-	.ontenedor2 {
+	.contenedor2 {
 		width: 100%;
 		order: 3;
+	}
+  #caja1 {
+		width: 100%;
+		order: 4;
+	}
+  #caja2 {
+		width: 100%;
+		order: 5;
+	}
+  #caja3 {
+		width: 100%;
+		order: 6;
+	}
+  #caja4 {
+		width: 100%;
+		order: 7;
 	}
 }
 
@@ -242,5 +343,21 @@ margin-top: 40px;
 	}
 	.contenedor2 {
 		width: 100%;
+	}
+  #caja1 {
+		width: 50%;
+		order: 4;
+	}
+  #caja2 {
+		width: 50%;
+		order: 4;
+	}
+  #caja3 {
+		width: 50%;
+		order: 5;
+	}
+  #caja4 {
+		width: 50%;
+		order: 5;
 	}
 }
